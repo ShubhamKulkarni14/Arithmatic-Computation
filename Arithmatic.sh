@@ -10,3 +10,7 @@ echo "$compute1"
 
 compute2=$(($num1*$num2+$num3))
 echo "$compute2"
+
+compute3=$(($num3+$num1/$num2))
+echo "$compute3"
+
