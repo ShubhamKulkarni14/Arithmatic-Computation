@@ -30,3 +30,6 @@ echo -e "\nARRAY VALs : ${arr[@]}"
 
 s_arr_d=($(echo ${arr[@]}| tr " " "\n" | sort -r))
 echo -e "\nSORTED DES : ${s_arr_d[@]}" #MAX TO MIN
+
+s_arr=($(echo ${arr[@]}| tr " " "\n" | sort -n))
+echo -e "\nSORTED ASC : ${s_arr[@]}" #MIN TO MAX
