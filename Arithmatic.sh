@@ -8,3 +8,5 @@ read -p "Enter the value of c : " num3
 compute1=$(($num1+$num2*$num3))
 echo "$compute1"
 
+compute2=$(($num1*$num2+$num3))
+echo "$compute2"
