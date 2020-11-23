@@ -27,3 +27,6 @@ a=0
 arr[((a++))]=${dict[@]}
 echo -e "\nDICTIONARY : ${dict[@]}"
 echo -e "\nARRAY VALs : ${arr[@]}"
+
+s_arr_d=($(echo ${arr[@]}| tr " " "\n" | sort -r))
+echo -e "\nSORTED DES : ${s_arr_d[@]}" #MAX TO MIN
