@@ -16,3 +16,10 @@ echo "$compute3"
 
 compute4=$(($num1%$num2+$num3))
 echo "$compute4"
+
+dict["Compute1"]+=$compute1
+dict["Compute2"]+=$compute2
+dict["Compute3"]+=$compute3
+dict["Compute4"]+=$compute4
+
+echo -e "\nDICTIONARY : ${dict[@]}
