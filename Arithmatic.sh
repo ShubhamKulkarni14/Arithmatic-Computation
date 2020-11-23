@@ -22,4 +22,8 @@ dict["Compute2"]+=$compute2
 dict["Compute3"]+=$compute3
 dict["Compute4"]+=$compute4
 
-echo -e "\nDICTIONARY : ${dict[@]}
+
+a=0
+arr[((a++))]=${dict[@]}
+echo -e "\nDICTIONARY : ${dict[@]}"
+echo -e "\nARRAY VALs : ${arr[@]}"
